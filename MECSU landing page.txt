@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join MECSU and Receive Exclusive Gifts!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .main {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+        .cta-button:hover {
+            background-color: #218838;
+        }
+        .form {
+            margin-top: 20px;
+        }
+        .form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .form button:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Join MECSU Today!</h1>
+            <p>Connect with trusted suppliers and buyers. Get exclusive gifts when you sign up now!</p>
+        </div>
+        <div class="main">
+            <h2>Why Join MECSU?</h2>
+            <ul style="text-align: left;">
+                <li>Access to hundreds of verified suppliers and buyers.</li>
+                <li>Streamline your procurement and sales processes.</li>
+                <li>Get a free exclusive guide: "Optimizing Your Supply Chain in 2024."</li>
+            </ul>
+
+            <h2>Limited-Time Offer!</h2>
+            <p>Sign up before <strong>January 31, 2024</strong>, and receive a special welcome gift:</p>
+            <p><strong>A $50 Discount Voucher</strong> for your first transaction!</p>
+
+            <a href="#signup" class="cta-button">Sign Up Now</a>
+
+            <div class="form" id="signup">
+                <h3>Sign Up for Free</h3>
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="company" placeholder="Your Company Name" required>
+                    <button type="submit">Get Your Gift!</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>By signing up, you agree to MECSU's <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
